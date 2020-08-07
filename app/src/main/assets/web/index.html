@@ -1,0 +1,23 @@
+ <html>
+    <head>
+         
+    </head>
+    <body >
+    <p>this is param</p>
+        <script>
+   function callJS(){
+      alert("Android调用了JS的无参callJS方法");
+   }
+   function callJSParameter(message){
+       alert("Android调用JS的有参callJS方法，参数为"+message);
+   }
+    
+</script>
+<script>
+ function testCallAmdroid(){
+ test.callAndroid("js diao yong android")}
+</script>
+ <button type="button" onclick="callJS()">click me</button>
+  <button type="button" onclick="testCallAmdroid()">call android</button>
+    </body>
+</html>
