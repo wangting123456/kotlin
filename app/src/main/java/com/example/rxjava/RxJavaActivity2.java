@@ -114,6 +114,7 @@ public class RxJavaActivity2 extends AppCompatActivity {
                 .retryOnConnectionFailure(true)
                 .build();
         demo12();
+
     }
 
     private void just() {

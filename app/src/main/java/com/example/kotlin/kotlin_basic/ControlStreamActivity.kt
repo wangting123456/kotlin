@@ -18,9 +18,9 @@ class ControlStreamActivity:AppCompatActivity() {
            var a = 10
            var b = 12
            val max = if(a > b) {
-               println("111")
+               Log.d(TAG,"111:")
                a
-           } else{  println("222")
+           } else{   Log.d(TAG,"222:")
                b}
         //2.when 取代了类 C 语言的 switch 操作符。其最简单的形式如下
           whentest()
