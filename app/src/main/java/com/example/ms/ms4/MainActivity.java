@@ -1,11 +1,9 @@
-package com.example.ms4;
+package com.example.ms.ms4;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
     @Override

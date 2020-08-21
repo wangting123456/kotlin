@@ -1,4 +1,4 @@
-package com.example.ms3;
+package com.example.ms.ms3;
 
 import android.os.Bundle;
 

@@ -1,4 +1,4 @@
-package com.example.ms2;
+package com.example.ms.ms2;
 
 import android.util.Log;
 

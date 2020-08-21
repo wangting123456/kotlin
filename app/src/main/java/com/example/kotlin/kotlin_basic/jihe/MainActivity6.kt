@@ -1,4 +1,4 @@
-package com.example.kotlin.kotlin_basic
+package com.example.kotlin.kotlin_basic.jihe
 
 import android.os.Bundle
 import android.util.Log

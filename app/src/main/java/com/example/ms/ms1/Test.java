@@ -1,4 +1,4 @@
-package com.example.ms1;
+package com.example.ms.ms1;
 
 public class Test {
     private String name;

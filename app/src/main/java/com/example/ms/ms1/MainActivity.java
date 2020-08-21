@@ -1,6 +1,5 @@
-package com.example.ms1;
+package com.example.ms.ms1;
 
-import android.content.BroadcastReceiver;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
