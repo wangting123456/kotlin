@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //中软没给offer
         //1.如果一个类的方法是private，别人怎么调用
         //2.用过哪些开源框架
         //3.熟悉哪些设计模式 单例 工厂方法模式 抽象工厂

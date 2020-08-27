@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        //中软给offer
         //1.Java的垃圾回收机制
         //2.锁有几种，区别
         //3.FragmentManager中add和replace的区别

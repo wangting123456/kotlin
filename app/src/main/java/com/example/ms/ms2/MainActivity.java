@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rxjava1);
         getLifecycle().addObserver(new MyLifeCycleObserver());
+        //中软没给offer
         //1.了解线程吗？线程：状态，挂起的方式和区别，异步方式同步锁，线程池的使用的API
         //2.databinding的双向绑定机制 edittext 就是双向绑定机制
         //3.lifecycle的实现原理 A startactivity  B

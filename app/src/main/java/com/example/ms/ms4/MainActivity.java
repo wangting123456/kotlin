@@ -9,11 +9,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //三星
         //1.类的加载过程
         //2.hashmap
         //3.锁的区别底层实现
         //4.okhttp 比原来的优势，拦截器，为什么要有拦截器
         //5.glide的优点
+        //科韵路
+        //1.Surfaceview和TextureView的区别
+        //2.okhttp五种拦截器
+        //3.用过哪些开源框架
     }
     //类的加载过程
     private void question1(){
@@ -31,5 +36,19 @@ public class MainActivity extends AppCompatActivity {
         //HashMap 内部结构：可以看作是数组和链表结合组成的复合结构，数组被分为一个个桶（bucket），每个桶存储有
           //一个或多个Entry对象，每个Entry对象包含三部分key（键）、value（值），next(指向下一个Entry），通
           //过哈希值决定了Entry对象在这个数组的寻址
+    }
+    private void q1(){
+        //SurfaceView和TextureView均继承于android.view.View
+        //与其它View不同的是，两者都能在独立的线程中绘制和渲染，在专用的GPU线程中大大提高渲染的性能。
+
+        //SurfaceView由于是独立的一层View，更像是独立的一个Window，不能加上动画、平移、缩放；
+        //两个SurfaceView不能相互覆盖。
+
+        //TextureView更像是一般的View，像TextView那样能被缩放、平移，也能加上动画。
+        //TextureView只能在开启了硬件加速的Window中使用，并且消费的内存要比SurfaceView多，并伴随着1-3帧的延迟。
+
+        //TextureView和SurfaceView都是继承自View类的，但是TextureView在Andriod4.0之后的API中才能使用。
+        //SurfaceView可以通过SurfaceHolder.addCallback方法在子线程中更新UI，TextureView则可以通过
+        //TextureView.setSurfaceTextureListener在子线程中更新UI，个人认为能够在子线程中更新UI是上述两种View相比于View的最大优势。
     }
 }
